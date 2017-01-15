@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7B0A85B01F0990588DF85C99 /* Pods_ColorWatchUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9254724F8A5383009E733E5F /* Pods_ColorWatchUITests.framework */; };
+		AACF94910A407076074EEEDA /* Pods_ColorWatchTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CF3EB7FBA980D57683A8CA4B /* Pods_ColorWatchTests.framework */; };
+		ADEEE0FE4C1CD0748DF097B1 /* Pods_ColorWatch.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B795C55722164A567A6D5CFA /* Pods_ColorWatch.framework */; };
 		D3021E311E2B79320044D04F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3021E301E2B79320044D04F /* AppDelegate.swift */; };
 		D3021E331E2B79320044D04F /* ColorWatchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3021E321E2B79320044D04F /* ColorWatchViewController.swift */; };
 		D3021E361E2B79320044D04F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D3021E341E2B79320044D04F /* Main.storyboard */; };
@@ -36,6 +39,13 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		5DEE030B7DA664B4035714AC /* Pods-ColorWatch.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ColorWatch.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ColorWatch/Pods-ColorWatch.debug.xcconfig"; sourceTree = "<group>"; };
+		73757A07057339320DC17D7D /* Pods-ColorWatchUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ColorWatchUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ColorWatchUITests/Pods-ColorWatchUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		9254724F8A5383009E733E5F /* Pods_ColorWatchUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ColorWatchUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A8278706933A8BBE8AB19FDC /* Pods-ColorWatchTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ColorWatchTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ColorWatchTests/Pods-ColorWatchTests.debug.xcconfig"; sourceTree = "<group>"; };
+		B795C55722164A567A6D5CFA /* Pods_ColorWatch.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ColorWatch.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C1E291BB5E1354F5D80C0269 /* Pods-ColorWatchUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ColorWatchUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-ColorWatchUITests/Pods-ColorWatchUITests.release.xcconfig"; sourceTree = "<group>"; };
+		CF3EB7FBA980D57683A8CA4B /* Pods_ColorWatchTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ColorWatchTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D3021E2D1E2B79320044D04F /* ColorWatch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ColorWatch.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D3021E301E2B79320044D04F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D3021E321E2B79320044D04F /* ColorWatchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorWatchViewController.swift; sourceTree = "<group>"; };
@@ -51,6 +61,8 @@
 		D3021E521E2B79320044D04F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D3021E5E1E2B798B0044D04F /* ClockModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ClockModel.swift; sourceTree = "<group>"; };
 		D3021E611E2B7F680044D04F /* ColorWatchViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ColorWatchViewModel.swift; sourceTree = "<group>"; };
+		F389BC2A556DAD97FFF52473 /* Pods-ColorWatchTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ColorWatchTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-ColorWatchTests/Pods-ColorWatchTests.release.xcconfig"; sourceTree = "<group>"; };
+		FA33DC84A6CBC5D8ABDDA864 /* Pods-ColorWatch.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ColorWatch.release.xcconfig"; path = "Pods/Target Support Files/Pods-ColorWatch/Pods-ColorWatch.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +70,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				ADEEE0FE4C1CD0748DF097B1 /* Pods_ColorWatch.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -65,6 +78,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AACF94910A407076074EEEDA /* Pods_ColorWatchTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -72,12 +86,26 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7B0A85B01F0990588DF85C99 /* Pods_ColorWatchUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		BE6BC0B999DD83F5006D9D59 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				5DEE030B7DA664B4035714AC /* Pods-ColorWatch.debug.xcconfig */,
+				FA33DC84A6CBC5D8ABDDA864 /* Pods-ColorWatch.release.xcconfig */,
+				A8278706933A8BBE8AB19FDC /* Pods-ColorWatchTests.debug.xcconfig */,
+				F389BC2A556DAD97FFF52473 /* Pods-ColorWatchTests.release.xcconfig */,
+				73757A07057339320DC17D7D /* Pods-ColorWatchUITests.debug.xcconfig */,
+				C1E291BB5E1354F5D80C0269 /* Pods-ColorWatchUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		D3021E241E2B79310044D04F = {
 			isa = PBXGroup;
 			children = (
@@ -85,6 +113,8 @@
 				D3021E441E2B79320044D04F /* ColorWatchTests */,
 				D3021E4F1E2B79320044D04F /* ColorWatchUITests */,
 				D3021E2E1E2B79320044D04F /* Products */,
+				BE6BC0B999DD83F5006D9D59 /* Pods */,
+				D46E775E5E7186708DE2FD31 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -139,6 +169,16 @@
 			name = ColorWatch;
 			sourceTree = "<group>";
 		};
+		D46E775E5E7186708DE2FD31 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B795C55722164A567A6D5CFA /* Pods_ColorWatch.framework */,
+				CF3EB7FBA980D57683A8CA4B /* Pods_ColorWatchTests.framework */,
+				9254724F8A5383009E733E5F /* Pods_ColorWatchUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -146,9 +186,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = D3021E551E2B79320044D04F /* Build configuration list for PBXNativeTarget "ColorWatch" */;
 			buildPhases = (
+				2CA03488AC2414E66BC3CAD2 /* [CP] Check Pods Manifest.lock */,
 				D3021E291E2B79310044D04F /* Sources */,
 				D3021E2A1E2B79310044D04F /* Frameworks */,
 				D3021E2B1E2B79310044D04F /* Resources */,
+				C60E44DF7CFD818D3DE5E205 /* [CP] Embed Pods Frameworks */,
+				9E27051CB7FBBD2069EBFDB8 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -163,9 +206,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = D3021E581E2B79320044D04F /* Build configuration list for PBXNativeTarget "ColorWatchTests" */;
 			buildPhases = (
+				3F2E2A8B38ED540003CF4482 /* [CP] Check Pods Manifest.lock */,
 				D3021E3D1E2B79320044D04F /* Sources */,
 				D3021E3E1E2B79320044D04F /* Frameworks */,
 				D3021E3F1E2B79320044D04F /* Resources */,
+				64BDFDB431519420C7304809 /* [CP] Embed Pods Frameworks */,
+				5371B54EE90229E62FE5CBA2 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -181,9 +227,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = D3021E5B1E2B79320044D04F /* Build configuration list for PBXNativeTarget "ColorWatchUITests" */;
 			buildPhases = (
+				56F52471A1E09F4988C7E8DB /* [CP] Check Pods Manifest.lock */,
 				D3021E481E2B79320044D04F /* Sources */,
 				D3021E491E2B79320044D04F /* Frameworks */,
 				D3021E4A1E2B79320044D04F /* Resources */,
+				5B008A74D12D48FAFDBDF714 /* [CP] Embed Pods Frameworks */,
+				3ECF92CD172F0E86A657C306 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -270,6 +319,144 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2CA03488AC2414E66BC3CAD2 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		3ECF92CD172F0E86A657C306 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ColorWatchUITests/Pods-ColorWatchUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3F2E2A8B38ED540003CF4482 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		5371B54EE90229E62FE5CBA2 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ColorWatchTests/Pods-ColorWatchTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		56F52471A1E09F4988C7E8DB /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		5B008A74D12D48FAFDBDF714 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ColorWatchUITests/Pods-ColorWatchUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		64BDFDB431519420C7304809 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ColorWatchTests/Pods-ColorWatchTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9E27051CB7FBBD2069EBFDB8 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ColorWatch/Pods-ColorWatch-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C60E44DF7CFD818D3DE5E205 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ColorWatch/Pods-ColorWatch-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		D3021E291E2B79310044D04F /* Sources */ = {
@@ -429,10 +616,12 @@
 		};
 		D3021E561E2B79320044D04F /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5DEE030B7DA664B4035714AC /* Pods-ColorWatch.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = SXKD66U4MW;
 				INFOPLIST_FILE = ColorWatch/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = jp.yjsan.ColorWatch;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -442,10 +631,12 @@
 		};
 		D3021E571E2B79320044D04F /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = FA33DC84A6CBC5D8ABDDA864 /* Pods-ColorWatch.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = SXKD66U4MW;
 				INFOPLIST_FILE = ColorWatch/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = jp.yjsan.ColorWatch;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -455,6 +646,7 @@
 		};
 		D3021E591E2B79320044D04F /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A8278706933A8BBE8AB19FDC /* Pods-ColorWatchTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -470,6 +662,7 @@
 		};
 		D3021E5A1E2B79320044D04F /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F389BC2A556DAD97FFF52473 /* Pods-ColorWatchTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -485,6 +678,7 @@
 		};
 		D3021E5C1E2B79320044D04F /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 73757A07057339320DC17D7D /* Pods-ColorWatchUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				DEVELOPMENT_TEAM = SXKD66U4MW;
@@ -499,6 +693,7 @@
 		};
 		D3021E5D1E2B79320044D04F /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C1E291BB5E1354F5D80C0269 /* Pods-ColorWatchUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				DEVELOPMENT_TEAM = SXKD66U4MW;
@@ -530,6 +725,7 @@
 				D3021E571E2B79320044D04F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		D3021E581E2B79320044D04F /* Build configuration list for PBXNativeTarget "ColorWatchTests" */ = {
 			isa = XCConfigurationList;
@@ -538,6 +734,7 @@
 				D3021E5A1E2B79320044D04F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		D3021E5B1E2B79320044D04F /* Build configuration list for PBXNativeTarget "ColorWatchUITests" */ = {
 			isa = XCConfigurationList;
@@ -546,6 +743,7 @@
 				D3021E5D1E2B79320044D04F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

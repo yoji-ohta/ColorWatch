@@ -1,0 +1,6 @@
+framework module Pods_ColorWatchTests {
+  umbrella header "Pods-ColorWatchTests-umbrella.h"
+
+  export *
+  module * { export * }
+}
