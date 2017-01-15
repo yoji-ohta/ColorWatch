@@ -8,17 +8,35 @@
 
 import Foundation
 
+let TimeGoesNotification = NSNotification.Name("ClockGoesNotification")
+
 class ClockModel {
     
     static let shared = ClockModel()
+    
+    var timer: Timer?
+    
+    func start() {
+        let timer = Timer.scheduledTimer(withTimeInterval: 0.5, repeats: true, block: { timer in
+            self.postNotification()
+        })
+        self.timer = timer
+    }
+    
+    func stop() {
+        timer?.invalidate()
+    }
     
     func postNotification() {
         let now = Date()
         let calendar = NSCalendar(identifier: NSCalendar.Identifier.gregorian)
         let component = calendar?.components(
             [NSCalendar.Unit.hour,
-            NSCalendar.Unit.minute,
-            NSCalendar.Unit.second],
+             NSCalendar.Unit.minute,
+             NSCalendar.Unit.second],
             from: now)
+        
+        let nc = NotificationCenter.default
+        nc.post(name: TimeGoesNotification, object: component)
     }
 }

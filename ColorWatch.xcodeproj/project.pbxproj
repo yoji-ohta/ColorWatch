@@ -8,13 +8,14 @@
 
 /* Begin PBXBuildFile section */
 		D3021E311E2B79320044D04F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3021E301E2B79320044D04F /* AppDelegate.swift */; };
-		D3021E331E2B79320044D04F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3021E321E2B79320044D04F /* ViewController.swift */; };
+		D3021E331E2B79320044D04F /* ColorWatchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3021E321E2B79320044D04F /* ColorWatchViewController.swift */; };
 		D3021E361E2B79320044D04F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D3021E341E2B79320044D04F /* Main.storyboard */; };
 		D3021E381E2B79320044D04F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D3021E371E2B79320044D04F /* Assets.xcassets */; };
 		D3021E3B1E2B79320044D04F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D3021E391E2B79320044D04F /* LaunchScreen.storyboard */; };
 		D3021E461E2B79320044D04F /* ColorWatchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3021E451E2B79320044D04F /* ColorWatchTests.swift */; };
 		D3021E511E2B79320044D04F /* ColorWatchUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3021E501E2B79320044D04F /* ColorWatchUITests.swift */; };
 		D3021E5F1E2B798B0044D04F /* ClockModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3021E5E1E2B798B0044D04F /* ClockModel.swift */; };
+		D3021E621E2B7F680044D04F /* ColorWatchViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3021E611E2B7F680044D04F /* ColorWatchViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,7 +38,7 @@
 /* Begin PBXFileReference section */
 		D3021E2D1E2B79320044D04F /* ColorWatch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ColorWatch.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D3021E301E2B79320044D04F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		D3021E321E2B79320044D04F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		D3021E321E2B79320044D04F /* ColorWatchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorWatchViewController.swift; sourceTree = "<group>"; };
 		D3021E351E2B79320044D04F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		D3021E371E2B79320044D04F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D3021E3A1E2B79320044D04F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -49,6 +50,7 @@
 		D3021E501E2B79320044D04F /* ColorWatchUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorWatchUITests.swift; sourceTree = "<group>"; };
 		D3021E521E2B79320044D04F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D3021E5E1E2B798B0044D04F /* ClockModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ClockModel.swift; sourceTree = "<group>"; };
+		D3021E611E2B7F680044D04F /* ColorWatchViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ColorWatchViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,8 +101,8 @@
 		D3021E2F1E2B79320044D04F /* ColorWatch */ = {
 			isa = PBXGroup;
 			children = (
+				D3021E601E2B7F200044D04F /* ColorWatch */,
 				D3021E301E2B79320044D04F /* AppDelegate.swift */,
-				D3021E321E2B79320044D04F /* ViewController.swift */,
 				D3021E341E2B79320044D04F /* Main.storyboard */,
 				D3021E371E2B79320044D04F /* Assets.xcassets */,
 				D3021E391E2B79320044D04F /* LaunchScreen.storyboard */,
@@ -126,6 +128,15 @@
 				D3021E521E2B79320044D04F /* Info.plist */,
 			);
 			path = ColorWatchUITests;
+			sourceTree = "<group>";
+		};
+		D3021E601E2B7F200044D04F /* ColorWatch */ = {
+			isa = PBXGroup;
+			children = (
+				D3021E321E2B79320044D04F /* ColorWatchViewController.swift */,
+				D3021E611E2B7F680044D04F /* ColorWatchViewModel.swift */,
+			);
+			name = ColorWatch;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -265,8 +276,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D3021E331E2B79320044D04F /* ViewController.swift in Sources */,
+				D3021E331E2B79320044D04F /* ColorWatchViewController.swift in Sources */,
 				D3021E5F1E2B798B0044D04F /* ClockModel.swift in Sources */,
+				D3021E621E2B7F680044D04F /* ColorWatchViewModel.swift in Sources */,
 				D3021E311E2B79320044D04F /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
