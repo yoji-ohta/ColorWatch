@@ -34,6 +34,9 @@
                             <constraint firstItem="LoJ-wk-aSQ" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="K82-4s-HJF"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="timeLabel" destination="LoJ-wk-aSQ" id="Qeb-PE-efQ"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>

@@ -7,12 +7,14 @@
 //
 
 import Foundation
+import RxSwift
 
 class ColorWatchViewModel {
     
-    var dateComponents: DateComponents?
+    var dateComponents = Variable(DateComponents())
     
     init() {
+        
         let nc = NotificationCenter.default
         nc.addObserver(self,
                        selector: #selector(ColorWatchViewModel.onTimeGoes(notification:)),
@@ -27,7 +29,7 @@ class ColorWatchViewModel {
     
     @objc func onTimeGoes(notification: Notification) {
         if let dateComponents = notification.object as? DateComponents {
-            self.dateComponents = dateComponents
+            self.dateComponents.value = dateComponents
         }
     }
 }

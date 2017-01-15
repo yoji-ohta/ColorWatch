@@ -131,8 +131,8 @@
 		D3021E2F1E2B79320044D04F /* ColorWatch */ = {
 			isa = PBXGroup;
 			children = (
-				D3021E601E2B7F200044D04F /* ColorWatch */,
 				D3021E301E2B79320044D04F /* AppDelegate.swift */,
+				D3021E601E2B7F200044D04F /* ColorWatch */,
 				D3021E341E2B79320044D04F /* Main.storyboard */,
 				D3021E371E2B79320044D04F /* Assets.xcassets */,
 				D3021E391E2B79320044D04F /* LaunchScreen.storyboard */,

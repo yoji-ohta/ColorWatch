@@ -12,12 +12,10 @@ let TimeGoesNotification = NSNotification.Name("ClockGoesNotification")
 
 class ClockModel {
     
-    static let shared = ClockModel()
-    
     var timer: Timer?
     
     func start() {
-        let timer = Timer.scheduledTimer(withTimeInterval: 0.5, repeats: true, block: { timer in
+        let timer = Timer.scheduledTimer(withTimeInterval: 1, repeats: true, block: { timer in
             self.postNotification()
         })
         self.timer = timer
