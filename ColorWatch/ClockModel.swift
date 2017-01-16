@@ -12,6 +12,8 @@ let TimeGoesNotification = NSNotification.Name("ClockGoesNotification")
 
 class ClockModel {
     
+    static let shared = ClockModel()
+    
     var timer: Timer?
     
     func start() {

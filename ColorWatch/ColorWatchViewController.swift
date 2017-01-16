@@ -24,13 +24,9 @@ class ColorWatchViewController: UIViewController {
     }
     
     func bind() {
-        viewModel.dateComponents.asObservable().subscribe(onNext: {[weak self] (dateComponents) in
-            
-            self?.timeLabel.text = self?.calculateLeftSeconds(components: dateComponents).description
-        }, onError: { (error) in
-            print(error)
-        }, onCompleted: { 
-            
+        viewModel.dateComponents.asObservable()
+            .subscribe(onNext: {[weak self] (dateComponents) in
+                self?.timeLabel.text = self?.calculateLeftSeconds(components: dateComponents).description
         }).addDisposableTo(disposeBag)
     }
     
